@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js" type="module"></script>
+    <title>Awesome Books</title>
+</head>
+
+<body class="m-0">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="nav-brand">
+            <p>Awesome Books</p>
+        </div>
+        <div class="align-items-right d-flex">
+            <ul class="nav-list navbar-nav linkmenu">
+                     <li class="nav-item"><a id="list" class="nav-link">List</a></li>
+                    <li class="nav-item"><a id="add" class="nav-link">Add new</a></li>
+                    <li class="nav-item"><a id="contactlink" class="nav-link">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="date">
+        <p id="render-date" class="fs-6 date align-end position-absolute"></p>
+    </div>
+    <section class="all-books" id="books-list-container">
+        <h2 class="text-center">All Awesome Books</h2>
+        <div class="book-list">
+            <!-- Add the items dynamically in js -->
+        </div>
+    </section>
+    <section id="add-book-container" class="hide">
+        <div class="row text-light">
+            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto form p-4">
+                <h2 class="display-4 py-2 text-dark text-center">Add a new book</h2>
+                <div class="px-2">
+                    <form id="form" class="add-book justify-content-center text-center">
+                        <div class="input-container">
+                            <input id="title" type="text" placeholder="Title" required>
+                        </div>
+                        <br>
+                        <div class="input-container">
+                            <input id="author" type="text" placeholder="Author" required>
+                        </div>
+                        <br>
+                        <button id="btnSubmit" type="submit">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-info  hide" id="contact">
+        <br><br>
+        <h2 class="p-4 text-center">Contact Information</h2>
+        <br>
+        <p>Do have any questions or you just want to say "Hello"? <br> You can reach out to us</p><br>
+        <ul class="contact-list">
+            <li>Our email: mail@mail.com</li>
+            <li>Our phone number: 82274668891</li>
+            <li>Our address: Streetman 99, 44463 City, country</li>
+        </ul>
+    </section>
+    <footer class="end-page">
+        <p>Copyright...</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
