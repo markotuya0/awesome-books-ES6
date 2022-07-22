@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+Awesome-books-ES6
 
 > Description the project.
-
+this is a simple book page created with Javascript, HTML & CSS
 
 ## Built With
 
@@ -13,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://markotuya0.github.io/awesome-books-ES6/)
 
 
 ## Getting Started
