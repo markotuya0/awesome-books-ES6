@@ -3,7 +3,7 @@
 # Project Name
 
 > Description the project.
-
+ this is a book project built with javascript & ES6
 
 ## Built With
 
