@@ -5,13 +5,11 @@
 > Description the project.
  this is a book project built with javascript & ES6
 
-## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
+Built With
+ HTML, CSS and JavaScript
+ Linters: Lighthouse, Webhint, Stylelint and ESLint
+ VS Code
 
 [Live Demo Link](https://livedemo.com)
 
